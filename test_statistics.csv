@@ -1,0 +1,496 @@
+casename,Test,Checks,Statistic,P-value,Reject H0
+case100,Shapiroo,Normality,1.00,0.03,True
+case100,D'Agostino,Normality,4.81,0.09,False
+case100,Runs test,Autocorr.,-1.25,0.21,False
+case100,Ljung-Box,Autocorr.,368.08,0.42,False
+case100,Durbin-Watson,Autocorr.,1.99,nan,False
+case101,Shapiroo,Normality,1.00,0.04,True
+case101,D'Agostino,Normality,4.40,0.11,False
+case101,Runs test,Autocorr.,-2.05,0.04,True
+case101,Ljung-Box,Autocorr.,401.73,0.08,False
+case101,Durbin-Watson,Autocorr.,1.97,nan,False
+case102,Shapiroo,Normality,1.00,0.02,True
+case102,D'Agostino,Normality,4.98,0.08,False
+case102,Runs test,Autocorr.,-0.87,0.39,False
+case102,Ljung-Box,Autocorr.,364.61,0.47,False
+case102,Durbin-Watson,Autocorr.,2.00,nan,False
+case103,Shapiroo,Normality,1.00,0.02,True
+case103,D'Agostino,Normality,4.98,0.08,False
+case103,Runs test,Autocorr.,-0.87,0.39,False
+case103,Ljung-Box,Autocorr.,364.54,0.47,False
+case103,Durbin-Watson,Autocorr.,2.00,nan,False
+case104,Shapiroo,Normality,1.00,0.02,True
+case104,D'Agostino,Normality,4.98,0.08,False
+case104,Runs test,Autocorr.,-0.94,0.35,False
+case104,Ljung-Box,Autocorr.,364.45,0.47,False
+case104,Durbin-Watson,Autocorr.,2.00,nan,False
+case105,Shapiroo,Normality,1.00,0.02,True
+case105,D'Agostino,Normality,4.99,0.08,False
+case105,Runs test,Autocorr.,-0.83,0.41,False
+case105,Ljung-Box,Autocorr.,364.24,0.47,False
+case105,Durbin-Watson,Autocorr.,2.00,nan,False
+case106,Shapiroo,Normality,1.00,0.02,True
+case106,D'Agostino,Normality,5.00,0.08,False
+case106,Runs test,Autocorr.,-0.87,0.39,False
+case106,Ljung-Box,Autocorr.,364.15,0.47,False
+case106,Durbin-Watson,Autocorr.,2.00,nan,False
+case107,Shapiroo,Normality,1.00,0.02,True
+case107,D'Agostino,Normality,5.00,0.08,False
+case107,Runs test,Autocorr.,-0.52,0.60,False
+case107,Ljung-Box,Autocorr.,364.09,0.47,False
+case107,Durbin-Watson,Autocorr.,2.00,nan,False
+case108,Shapiroo,Normality,1.00,0.02,True
+case108,D'Agostino,Normality,4.98,0.08,False
+case108,Runs test,Autocorr.,-0.33,0.74,False
+case108,Ljung-Box,Autocorr.,364.27,0.47,False
+case108,Durbin-Watson,Autocorr.,2.00,nan,False
+case109,Shapiroo,Normality,1.00,0.03,True
+case109,D'Agostino,Normality,4.68,0.10,False
+case109,Runs test,Autocorr.,-1.36,0.17,False
+case109,Ljung-Box,Autocorr.,373.53,0.34,False
+case109,Durbin-Watson,Autocorr.,1.98,nan,False
+case110,Shapiroo,Normality,1.00,0.02,True
+case110,D'Agostino,Normality,4.97,0.08,False
+case110,Runs test,Autocorr.,-0.83,0.41,False
+case110,Ljung-Box,Autocorr.,364.61,0.47,False
+case110,Durbin-Watson,Autocorr.,2.00,nan,False
+case111,Shapiroo,Normality,1.00,0.02,True
+case111,D'Agostino,Normality,4.97,0.08,False
+case111,Runs test,Autocorr.,-0.87,0.39,False
+case111,Ljung-Box,Autocorr.,364.62,0.47,False
+case111,Durbin-Watson,Autocorr.,2.00,nan,False
+case112,Shapiroo,Normality,1.00,0.02,True
+case112,D'Agostino,Normality,4.97,0.08,False
+case112,Runs test,Autocorr.,-0.94,0.35,False
+case112,Ljung-Box,Autocorr.,364.52,0.47,False
+case112,Durbin-Watson,Autocorr.,2.00,nan,False
+case113,Shapiroo,Normality,1.00,0.02,True
+case113,D'Agostino,Normality,4.97,0.08,False
+case113,Runs test,Autocorr.,-0.94,0.35,False
+case113,Ljung-Box,Autocorr.,364.48,0.47,False
+case113,Durbin-Watson,Autocorr.,2.00,nan,False
+case114,Shapiroo,Normality,1.00,0.02,True
+case114,D'Agostino,Normality,4.97,0.08,False
+case114,Runs test,Autocorr.,-0.90,0.37,False
+case114,Ljung-Box,Autocorr.,364.35,0.47,False
+case114,Durbin-Watson,Autocorr.,2.00,nan,False
+case115,Shapiroo,Normality,1.00,0.02,True
+case115,D'Agostino,Normality,4.98,0.08,False
+case115,Runs test,Autocorr.,-0.87,0.39,False
+case115,Ljung-Box,Autocorr.,364.21,0.47,False
+case115,Durbin-Watson,Autocorr.,2.00,nan,False
+case116,Shapiroo,Normality,1.00,0.02,True
+case116,D'Agostino,Normality,4.99,0.08,False
+case116,Runs test,Autocorr.,-0.68,0.50,False
+case116,Ljung-Box,Autocorr.,364.15,0.47,False
+case116,Durbin-Watson,Autocorr.,2.00,nan,False
+case117,Shapiroo,Normality,1.00,0.02,True
+case117,D'Agostino,Normality,4.97,0.08,False
+case117,Runs test,Autocorr.,-0.41,0.68,False
+case117,Ljung-Box,Autocorr.,364.24,0.47,False
+case117,Durbin-Watson,Autocorr.,2.00,nan,False
+case118,Shapiroo,Normality,1.00,0.04,True
+case118,D'Agostino,Normality,4.52,0.10,False
+case118,Runs test,Autocorr.,-1.74,0.08,False
+case118,Ljung-Box,Autocorr.,381.30,0.24,False
+case118,Durbin-Watson,Autocorr.,1.97,nan,False
+case119,Shapiroo,Normality,1.00,0.07,False
+case119,D'Agostino,Normality,3.83,0.15,False
+case119,Runs test,Autocorr.,-3.80,0.00,True
+case119,Ljung-Box,Autocorr.,464.16,0.00,True
+case119,Durbin-Watson,Autocorr.,1.92,nan,False
+case120,Shapiroo,Normality,1.00,0.02,True
+case120,D'Agostino,Normality,4.97,0.08,False
+case120,Runs test,Autocorr.,-0.87,0.39,False
+case120,Ljung-Box,Autocorr.,364.57,0.47,False
+case120,Durbin-Watson,Autocorr.,2.00,nan,False
+case121,Shapiroo,Normality,1.00,0.02,True
+case121,D'Agostino,Normality,4.96,0.08,False
+case121,Runs test,Autocorr.,-0.94,0.35,False
+case121,Ljung-Box,Autocorr.,364.56,0.47,False
+case121,Durbin-Watson,Autocorr.,2.00,nan,False
+case122,Shapiroo,Normality,1.00,0.02,True
+case122,D'Agostino,Normality,4.96,0.08,False
+case122,Runs test,Autocorr.,-0.98,0.33,False
+case122,Ljung-Box,Autocorr.,364.49,0.47,False
+case122,Durbin-Watson,Autocorr.,2.00,nan,False
+case123,Shapiroo,Normality,1.00,0.02,True
+case123,D'Agostino,Normality,4.96,0.08,False
+case123,Runs test,Autocorr.,-1.06,0.29,False
+case123,Ljung-Box,Autocorr.,364.38,0.47,False
+case123,Durbin-Watson,Autocorr.,2.00,nan,False
+case124,Shapiroo,Normality,1.00,0.02,True
+case124,D'Agostino,Normality,4.96,0.08,False
+case124,Runs test,Autocorr.,-0.83,0.41,False
+case124,Ljung-Box,Autocorr.,364.25,0.47,False
+case124,Durbin-Watson,Autocorr.,2.00,nan,False
+case125,Shapiroo,Normality,1.00,0.02,True
+case125,D'Agostino,Normality,4.97,0.08,False
+case125,Runs test,Autocorr.,-0.71,0.48,False
+case125,Ljung-Box,Autocorr.,364.16,0.47,False
+case125,Durbin-Watson,Autocorr.,2.00,nan,False
+case126,Shapiroo,Normality,1.00,0.02,True
+case126,D'Agostino,Normality,4.95,0.08,False
+case126,Runs test,Autocorr.,-0.45,0.65,False
+case126,Ljung-Box,Autocorr.,364.20,0.47,False
+case126,Durbin-Watson,Autocorr.,2.00,nan,False
+case127,Shapiroo,Normality,1.00,0.02,True
+case127,D'Agostino,Normality,4.97,0.08,False
+case127,Runs test,Autocorr.,-0.90,0.37,False
+case127,Ljung-Box,Autocorr.,364.53,0.47,False
+case127,Durbin-Watson,Autocorr.,2.00,nan,False
+case128,Shapiroo,Normality,1.00,0.10,False
+case128,D'Agostino,Normality,3.56,0.17,False
+case128,Runs test,Autocorr.,-5.09,0.00,True
+case128,Ljung-Box,Autocorr.,504.04,0.00,True
+case128,Durbin-Watson,Autocorr.,1.88,nan,False
+case129,Shapiroo,Normality,1.00,0.02,True
+case129,D'Agostino,Normality,4.97,0.08,False
+case129,Runs test,Autocorr.,-0.90,0.37,False
+case129,Ljung-Box,Autocorr.,364.52,0.47,False
+case129,Durbin-Watson,Autocorr.,2.00,nan,False
+case130,Shapiroo,Normality,1.00,0.02,True
+case130,D'Agostino,Normality,4.96,0.08,False
+case130,Runs test,Autocorr.,-0.90,0.37,False
+case130,Ljung-Box,Autocorr.,364.51,0.47,False
+case130,Durbin-Watson,Autocorr.,2.00,nan,False
+case131,Shapiroo,Normality,1.00,0.02,True
+case131,D'Agostino,Normality,4.95,0.08,False
+case131,Runs test,Autocorr.,-0.98,0.33,False
+case131,Ljung-Box,Autocorr.,364.47,0.47,False
+case131,Durbin-Watson,Autocorr.,2.00,nan,False
+case132,Shapiroo,Normality,1.00,0.02,True
+case132,D'Agostino,Normality,4.94,0.08,False
+case132,Runs test,Autocorr.,-0.94,0.35,False
+case132,Ljung-Box,Autocorr.,364.39,0.47,False
+case132,Durbin-Watson,Autocorr.,2.00,nan,False
+case133,Shapiroo,Normality,1.00,0.02,True
+case133,D'Agostino,Normality,4.94,0.08,False
+case133,Runs test,Autocorr.,-0.90,0.37,False
+case133,Ljung-Box,Autocorr.,364.28,0.47,False
+case133,Durbin-Watson,Autocorr.,2.00,nan,False
+case134,Shapiroo,Normality,1.00,0.02,True
+case134,D'Agostino,Normality,4.94,0.08,False
+case134,Runs test,Autocorr.,-0.75,0.45,False
+case134,Ljung-Box,Autocorr.,364.17,0.47,False
+case134,Durbin-Watson,Autocorr.,2.00,nan,False
+case135,Shapiroo,Normality,1.00,0.02,True
+case135,D'Agostino,Normality,4.92,0.09,False
+case135,Runs test,Autocorr.,-0.60,0.55,False
+case135,Ljung-Box,Autocorr.,364.16,0.47,False
+case135,Durbin-Watson,Autocorr.,2.00,nan,False
+case136,Shapiroo,Normality,1.00,0.02,True
+case136,D'Agostino,Normality,4.97,0.08,False
+case136,Runs test,Autocorr.,-0.90,0.37,False
+case136,Ljung-Box,Autocorr.,364.50,0.47,False
+case136,Durbin-Watson,Autocorr.,2.00,nan,False
+case137,Shapiroo,Normality,1.00,0.13,False
+case137,D'Agostino,Normality,3.29,0.19,False
+case137,Runs test,Autocorr.,-6.27,0.00,True
+case137,Ljung-Box,Autocorr.,549.11,0.00,True
+case137,Durbin-Watson,Autocorr.,1.85,nan,False
+case138,Shapiroo,Normality,1.00,0.02,True
+case138,D'Agostino,Normality,4.96,0.08,False
+case138,Runs test,Autocorr.,-1.02,0.31,False
+case138,Ljung-Box,Autocorr.,364.52,0.47,False
+case138,Durbin-Watson,Autocorr.,2.00,nan,False
+case139,Shapiroo,Normality,1.00,0.02,True
+case139,D'Agostino,Normality,4.94,0.08,False
+case139,Runs test,Autocorr.,-0.94,0.35,False
+case139,Ljung-Box,Autocorr.,364.51,0.47,False
+case139,Durbin-Watson,Autocorr.,2.00,nan,False
+case140,Shapiroo,Normality,1.00,0.02,True
+case140,D'Agostino,Normality,4.93,0.09,False
+case140,Runs test,Autocorr.,-0.94,0.35,False
+case140,Ljung-Box,Autocorr.,364.48,0.47,False
+case140,Durbin-Watson,Autocorr.,2.00,nan,False
+case141,Shapiroo,Normality,1.00,0.02,True
+case141,D'Agostino,Normality,4.92,0.09,False
+case141,Runs test,Autocorr.,-0.90,0.37,False
+case141,Ljung-Box,Autocorr.,364.44,0.47,False
+case141,Durbin-Watson,Autocorr.,2.00,nan,False
+case142,Shapiroo,Normality,1.00,0.02,True
+case142,D'Agostino,Normality,4.91,0.09,False
+case142,Runs test,Autocorr.,-0.79,0.43,False
+case142,Ljung-Box,Autocorr.,364.33,0.47,False
+case142,Durbin-Watson,Autocorr.,2.00,nan,False
+case143,Shapiroo,Normality,1.00,0.02,True
+case143,D'Agostino,Normality,4.92,0.09,False
+case143,Runs test,Autocorr.,-0.71,0.48,False
+case143,Ljung-Box,Autocorr.,364.20,0.47,False
+case143,Durbin-Watson,Autocorr.,2.00,nan,False
+case144,Shapiroo,Normality,1.00,0.02,True
+case144,D'Agostino,Normality,4.89,0.09,False
+case144,Runs test,Autocorr.,-0.67,0.50,False
+case144,Ljung-Box,Autocorr.,364.15,0.47,False
+case144,Durbin-Watson,Autocorr.,2.00,nan,False
+case145,Shapiroo,Normality,1.00,0.06,False
+case145,D'Agostino,Normality,4.08,0.13,False
+case145,Runs test,Autocorr.,-3.61,0.00,True
+case145,Ljung-Box,Autocorr.,418.84,0.02,True
+case145,Durbin-Watson,Autocorr.,1.91,nan,False
+case146,Shapiroo,Normality,1.00,0.02,True
+case146,D'Agostino,Normality,4.96,0.08,False
+case146,Runs test,Autocorr.,-0.98,0.33,False
+case146,Ljung-Box,Autocorr.,364.50,0.47,False
+case146,Durbin-Watson,Autocorr.,2.00,nan,False
+case147,Shapiroo,Normality,1.00,0.02,True
+case147,D'Agostino,Normality,4.94,0.08,False
+case147,Runs test,Autocorr.,-0.94,0.35,False
+case147,Ljung-Box,Autocorr.,364.50,0.47,False
+case147,Durbin-Watson,Autocorr.,2.00,nan,False
+case148,Shapiroo,Normality,1.00,0.02,True
+case148,D'Agostino,Normality,4.92,0.09,False
+case148,Runs test,Autocorr.,-0.98,0.33,False
+case148,Ljung-Box,Autocorr.,364.52,0.47,False
+case148,Durbin-Watson,Autocorr.,2.00,nan,False
+case149,Shapiroo,Normality,1.00,0.02,True
+case149,D'Agostino,Normality,4.91,0.09,False
+case149,Runs test,Autocorr.,-0.94,0.35,False
+case149,Ljung-Box,Autocorr.,364.56,0.47,False
+case149,Durbin-Watson,Autocorr.,2.00,nan,False
+case150,Shapiroo,Normality,1.00,0.02,True
+case150,D'Agostino,Normality,4.89,0.09,False
+case150,Runs test,Autocorr.,-0.94,0.35,False
+case150,Ljung-Box,Autocorr.,364.52,0.47,False
+case150,Durbin-Watson,Autocorr.,2.00,nan,False
+case151,Shapiroo,Normality,1.00,0.02,True
+case151,D'Agostino,Normality,4.89,0.09,False
+case151,Runs test,Autocorr.,-0.87,0.39,False
+case151,Ljung-Box,Autocorr.,364.40,0.47,False
+case151,Durbin-Watson,Autocorr.,2.00,nan,False
+case152,Shapiroo,Normality,1.00,0.02,True
+case152,D'Agostino,Normality,4.88,0.09,False
+case152,Runs test,Autocorr.,-0.79,0.43,False
+case152,Ljung-Box,Autocorr.,364.25,0.47,False
+case152,Durbin-Watson,Autocorr.,2.00,nan,False
+case153,Shapiroo,Normality,1.00,0.02,True
+case153,D'Agostino,Normality,4.85,0.09,False
+case153,Runs test,Autocorr.,-0.64,0.52,False
+case153,Ljung-Box,Autocorr.,364.13,0.47,False
+case153,Durbin-Watson,Autocorr.,2.00,nan,False
+case154,Shapiroo,Normality,1.00,0.02,True
+case154,D'Agostino,Normality,4.96,0.08,False
+case154,Runs test,Autocorr.,-0.98,0.33,False
+case154,Ljung-Box,Autocorr.,364.48,0.47,False
+case154,Durbin-Watson,Autocorr.,2.00,nan,False
+case155,Shapiroo,Normality,1.00,0.02,True
+case155,D'Agostino,Normality,4.94,0.08,False
+case155,Runs test,Autocorr.,-0.98,0.33,False
+case155,Ljung-Box,Autocorr.,364.52,0.47,False
+case155,Durbin-Watson,Autocorr.,2.00,nan,False
+case156,Shapiroo,Normality,1.00,0.02,True
+case156,D'Agostino,Normality,4.93,0.09,False
+case156,Runs test,Autocorr.,-1.02,0.31,False
+case156,Ljung-Box,Autocorr.,364.57,0.47,False
+case156,Durbin-Watson,Autocorr.,2.00,nan,False
+case157,Shapiroo,Normality,1.00,0.02,True
+case157,D'Agostino,Normality,4.90,0.09,False
+case157,Runs test,Autocorr.,-1.06,0.29,False
+case157,Ljung-Box,Autocorr.,364.65,0.47,False
+case157,Durbin-Watson,Autocorr.,2.00,nan,False
+case158,Shapiroo,Normality,1.00,0.02,True
+case158,D'Agostino,Normality,4.88,0.09,False
+case158,Runs test,Autocorr.,-1.06,0.29,False
+case158,Ljung-Box,Autocorr.,364.66,0.47,False
+case158,Durbin-Watson,Autocorr.,2.00,nan,False
+case159,Shapiroo,Normality,1.00,0.02,True
+case159,D'Agostino,Normality,4.86,0.09,False
+case159,Runs test,Autocorr.,-1.02,0.31,False
+case159,Ljung-Box,Autocorr.,364.68,0.47,False
+case159,Durbin-Watson,Autocorr.,1.99,nan,False
+case160,Shapiroo,Normality,1.00,0.02,True
+case160,D'Agostino,Normality,4.86,0.09,False
+case160,Runs test,Autocorr.,-0.94,0.35,False
+case160,Ljung-Box,Autocorr.,364.54,0.47,False
+case160,Durbin-Watson,Autocorr.,1.99,nan,False
+case161,Shapiroo,Normality,1.00,0.02,True
+case161,D'Agostino,Normality,4.86,0.09,False
+case161,Runs test,Autocorr.,-0.94,0.35,False
+case161,Ljung-Box,Autocorr.,364.43,0.47,False
+case161,Durbin-Watson,Autocorr.,1.99,nan,False
+case162,Shapiroo,Normality,1.00,0.03,True
+case162,D'Agostino,Normality,4.83,0.09,False
+case162,Runs test,Autocorr.,-0.87,0.39,False
+case162,Ljung-Box,Autocorr.,364.31,0.47,False
+case162,Durbin-Watson,Autocorr.,1.99,nan,False
+case163,Shapiroo,Normality,1.00,0.02,True
+case163,D'Agostino,Normality,4.96,0.08,False
+case163,Runs test,Autocorr.,-1.06,0.29,False
+case163,Ljung-Box,Autocorr.,364.60,0.47,False
+case163,Durbin-Watson,Autocorr.,2.00,nan,False
+case164,Shapiroo,Normality,1.00,0.02,True
+case164,D'Agostino,Normality,4.93,0.08,False
+case164,Runs test,Autocorr.,-1.09,0.27,False
+case164,Ljung-Box,Autocorr.,364.66,0.47,False
+case164,Durbin-Watson,Autocorr.,2.00,nan,False
+case165,Shapiroo,Normality,1.00,0.02,True
+case165,D'Agostino,Normality,4.90,0.09,False
+case165,Runs test,Autocorr.,-1.09,0.27,False
+case165,Ljung-Box,Autocorr.,364.75,0.46,False
+case165,Durbin-Watson,Autocorr.,2.00,nan,False
+case166,Shapiroo,Normality,1.00,0.02,True
+case166,D'Agostino,Normality,4.88,0.09,False
+case166,Runs test,Autocorr.,-1.09,0.27,False
+case166,Ljung-Box,Autocorr.,364.81,0.46,False
+case166,Durbin-Watson,Autocorr.,2.00,nan,False
+case167,Shapiroo,Normality,1.00,0.02,True
+case167,D'Agostino,Normality,4.86,0.09,False
+case167,Runs test,Autocorr.,-0.98,0.33,False
+case167,Ljung-Box,Autocorr.,364.91,0.46,False
+case167,Durbin-Watson,Autocorr.,1.99,nan,False
+case168,Shapiroo,Normality,1.00,0.02,True
+case168,D'Agostino,Normality,4.84,0.09,False
+case168,Runs test,Autocorr.,-1.02,0.31,False
+case168,Ljung-Box,Autocorr.,364.91,0.46,False
+case168,Durbin-Watson,Autocorr.,1.99,nan,False
+case169,Shapiroo,Normality,1.00,0.02,True
+case169,D'Agostino,Normality,4.82,0.09,False
+case169,Runs test,Autocorr.,-1.02,0.31,False
+case169,Ljung-Box,Autocorr.,364.88,0.46,False
+case169,Durbin-Watson,Autocorr.,1.99,nan,False
+case170,Shapiroo,Normality,1.00,0.02,True
+case170,D'Agostino,Normality,4.83,0.09,False
+case170,Runs test,Autocorr.,-1.02,0.31,False
+case170,Ljung-Box,Autocorr.,364.73,0.46,False
+case170,Durbin-Watson,Autocorr.,1.99,nan,False
+case171,Shapiroo,Normality,1.00,0.03,True
+case171,D'Agostino,Normality,4.79,0.09,False
+case171,Runs test,Autocorr.,-0.94,0.35,False
+case171,Ljung-Box,Autocorr.,364.58,0.47,False
+case171,Durbin-Watson,Autocorr.,1.99,nan,False
+case172,Shapiroo,Normality,1.00,0.02,True
+case172,D'Agostino,Normality,4.93,0.09,False
+case172,Runs test,Autocorr.,-0.98,0.33,False
+case172,Ljung-Box,Autocorr.,364.57,0.47,False
+case172,Durbin-Watson,Autocorr.,2.00,nan,False
+case173,Shapiroo,Normality,1.00,0.02,True
+case173,D'Agostino,Normality,4.91,0.09,False
+case173,Runs test,Autocorr.,-1.02,0.31,False
+case173,Ljung-Box,Autocorr.,364.71,0.46,False
+case173,Durbin-Watson,Autocorr.,2.00,nan,False
+case174,Shapiroo,Normality,1.00,0.02,True
+case174,D'Agostino,Normality,4.89,0.09,False
+case174,Runs test,Autocorr.,-1.02,0.31,False
+case174,Ljung-Box,Autocorr.,364.89,0.46,False
+case174,Durbin-Watson,Autocorr.,2.00,nan,False
+case175,Shapiroo,Normality,1.00,0.02,True
+case175,D'Agostino,Normality,4.86,0.09,False
+case175,Runs test,Autocorr.,-0.98,0.33,False
+case175,Ljung-Box,Autocorr.,364.98,0.46,False
+case175,Durbin-Watson,Autocorr.,1.99,nan,False
+case176,Shapiroo,Normality,1.00,0.02,True
+case176,D'Agostino,Normality,4.84,0.09,False
+case176,Runs test,Autocorr.,-0.98,0.33,False
+case176,Ljung-Box,Autocorr.,365.12,0.46,False
+case176,Durbin-Watson,Autocorr.,1.99,nan,False
+case177,Shapiroo,Normality,1.00,0.02,True
+case177,D'Agostino,Normality,4.83,0.09,False
+case177,Runs test,Autocorr.,-0.98,0.33,False
+case177,Ljung-Box,Autocorr.,365.19,0.46,False
+case177,Durbin-Watson,Autocorr.,1.99,nan,False
+case178,Shapiroo,Normality,1.00,0.02,True
+case178,D'Agostino,Normality,4.81,0.09,False
+case178,Runs test,Autocorr.,-1.02,0.31,False
+case178,Ljung-Box,Autocorr.,365.18,0.46,False
+case178,Durbin-Watson,Autocorr.,1.99,nan,False
+case179,Shapiroo,Normality,1.00,0.02,True
+case179,D'Agostino,Normality,4.81,0.09,False
+case179,Runs test,Autocorr.,-1.13,0.26,False
+case179,Ljung-Box,Autocorr.,365.18,0.46,False
+case179,Durbin-Watson,Autocorr.,1.99,nan,False
+case180,Shapiroo,Normality,1.00,0.02,True
+case180,D'Agostino,Normality,4.75,0.09,False
+case180,Runs test,Autocorr.,-1.13,0.26,False
+case180,Ljung-Box,Autocorr.,365.06,0.46,False
+case180,Durbin-Watson,Autocorr.,1.99,nan,False
+case181,Shapiroo,Normality,1.00,0.02,True
+case181,D'Agostino,Normality,4.90,0.09,False
+case181,Runs test,Autocorr.,-0.83,0.41,False
+case181,Ljung-Box,Autocorr.,364.45,0.47,False
+case181,Durbin-Watson,Autocorr.,2.00,nan,False
+case182,Shapiroo,Normality,1.00,0.02,True
+case182,D'Agostino,Normality,4.87,0.09,False
+case182,Runs test,Autocorr.,-0.83,0.41,False
+case182,Ljung-Box,Autocorr.,364.62,0.47,False
+case182,Durbin-Watson,Autocorr.,2.00,nan,False
+case183,Shapiroo,Normality,1.00,0.02,True
+case183,D'Agostino,Normality,4.87,0.09,False
+case183,Runs test,Autocorr.,-0.83,0.41,False
+case183,Ljung-Box,Autocorr.,364.69,0.47,False
+case183,Durbin-Watson,Autocorr.,2.00,nan,False
+case184,Shapiroo,Normality,1.00,0.02,True
+case184,D'Agostino,Normality,4.85,0.09,False
+case184,Runs test,Autocorr.,-0.75,0.45,False
+case184,Ljung-Box,Autocorr.,364.85,0.46,False
+case184,Durbin-Watson,Autocorr.,1.99,nan,False
+case185,Shapiroo,Normality,1.00,0.02,True
+case185,D'Agostino,Normality,4.84,0.09,False
+case185,Runs test,Autocorr.,-0.87,0.39,False
+case185,Ljung-Box,Autocorr.,364.97,0.46,False
+case185,Durbin-Watson,Autocorr.,1.99,nan,False
+case186,Shapiroo,Normality,1.00,0.03,True
+case186,D'Agostino,Normality,4.82,0.09,False
+case186,Runs test,Autocorr.,-0.90,0.37,False
+case186,Ljung-Box,Autocorr.,365.08,0.46,False
+case186,Durbin-Watson,Autocorr.,1.99,nan,False
+case187,Shapiroo,Normality,1.00,0.02,True
+case187,D'Agostino,Normality,4.82,0.09,False
+case187,Runs test,Autocorr.,-1.02,0.31,False
+case187,Ljung-Box,Autocorr.,365.04,0.46,False
+case187,Durbin-Watson,Autocorr.,1.99,nan,False
+case188,Shapiroo,Normality,1.00,0.03,True
+case188,D'Agostino,Normality,4.79,0.09,False
+case188,Runs test,Autocorr.,-1.02,0.31,False
+case188,Ljung-Box,Autocorr.,365.15,0.46,False
+case188,Durbin-Watson,Autocorr.,1.99,nan,False
+case189,Shapiroo,Normality,1.00,0.03,True
+case189,D'Agostino,Normality,4.72,0.09,False
+case189,Runs test,Autocorr.,-0.94,0.35,False
+case189,Ljung-Box,Autocorr.,365.16,0.46,False
+case189,Durbin-Watson,Autocorr.,1.99,nan,False
+case190,Shapiroo,Normality,1.00,0.02,True
+case190,D'Agostino,Normality,4.89,0.09,False
+case190,Runs test,Autocorr.,-0.71,0.48,False
+case190,Ljung-Box,Autocorr.,364.07,0.47,False
+case190,Durbin-Watson,Autocorr.,2.00,nan,False
+case191,Shapiroo,Normality,1.00,0.02,True
+case191,D'Agostino,Normality,4.86,0.09,False
+case191,Runs test,Autocorr.,-0.68,0.50,False
+case191,Ljung-Box,Autocorr.,364.35,0.47,False
+case191,Durbin-Watson,Autocorr.,2.00,nan,False
+case192,Shapiroo,Normality,1.00,0.02,True
+case192,D'Agostino,Normality,4.85,0.09,False
+case192,Runs test,Autocorr.,-0.75,0.45,False
+case192,Ljung-Box,Autocorr.,364.56,0.47,False
+case192,Durbin-Watson,Autocorr.,1.99,nan,False
+case193,Shapiroo,Normality,1.00,0.02,True
+case193,D'Agostino,Normality,4.84,0.09,False
+case193,Runs test,Autocorr.,-0.87,0.39,False
+case193,Ljung-Box,Autocorr.,364.74,0.46,False
+case193,Durbin-Watson,Autocorr.,1.99,nan,False
+case194,Shapiroo,Normality,1.00,0.02,True
+case194,D'Agostino,Normality,4.82,0.09,False
+case194,Runs test,Autocorr.,-0.87,0.39,False
+case194,Ljung-Box,Autocorr.,364.93,0.46,False
+case194,Durbin-Watson,Autocorr.,1.99,nan,False
+case195,Shapiroo,Normality,1.00,0.02,True
+case195,D'Agostino,Normality,4.81,0.09,False
+case195,Runs test,Autocorr.,-1.06,0.29,False
+case195,Ljung-Box,Autocorr.,365.08,0.46,False
+case195,Durbin-Watson,Autocorr.,1.99,nan,False
+case196,Shapiroo,Normality,1.00,0.02,True
+case196,D'Agostino,Normality,4.82,0.09,False
+case196,Runs test,Autocorr.,-1.09,0.27,False
+case196,Ljung-Box,Autocorr.,365.06,0.46,False
+case196,Durbin-Watson,Autocorr.,1.98,nan,False
+case197,Shapiroo,Normality,1.00,0.02,True
+case197,D'Agostino,Normality,4.81,0.09,False
+case197,Runs test,Autocorr.,-1.13,0.26,False
+case197,Ljung-Box,Autocorr.,365.27,0.46,False
+case197,Durbin-Watson,Autocorr.,1.98,nan,False
+case198,Shapiroo,Normality,1.00,0.02,True
+case198,D'Agostino,Normality,4.71,0.09,False
+case198,Runs test,Autocorr.,-1.09,0.27,False
+case198,Ljung-Box,Autocorr.,365.58,0.45,False
+case198,Durbin-Watson,Autocorr.,1.98,nan,False
