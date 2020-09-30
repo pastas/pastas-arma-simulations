@@ -29,7 +29,7 @@ class GwSym:
             self.name = name
         return self.name
 
-    def generate_head(self, rain=None, Atrue=800, ntrue=1.1, atrue=200,
+    def generate_head(self, rain=None, Atrue=800, ntrue=1.1, atrue=5,
                       dtrue=20):
         """ Generate the heads from rain with deterministic model 
         parameters """
@@ -56,7 +56,7 @@ class GwSym:
         return head
 
     def generate_noise(self, alpha=0.7, beta=0.7, noise_perc=0.2, head=None):
-        """Generate series of random distirbuted noise """
+        """Generate series of random distributed noise """
 
         self.noisepar['alpha'] = alpha
         self.noisepar['beta'] = beta
@@ -67,15 +67,14 @@ class GwSym:
         # generate samples using Numpy
         random_seed = np.random.RandomState(1234)
         n = len(head)
-        innovation = random_seed.normal(0, 1, n) * np.std(
-            head.values) * noise_perc
-        ##noise = np.zeros_like(head.values)
+        innovation = random_seed.normal(0, 1, n) * np.std(head.values) * \
+                     noise_perc
         noise = np.zeros(n)
 
         for i in range(1, n):
             # beta = theta, alpha = phi
-            noise[i] = innovation[i] + innovation[i - 1] * beta + noise[
-                i - 1] * alpha
+            noise[i] = innovation[i] + innovation[i - 1] * beta + \
+                       noise[i - 1] * alpha
 
         # head_noise = head[0] + noise
         self.noise = Series(noise, head.index)
@@ -199,8 +198,9 @@ class GwSym:
         par['A_est'] = sr['recharge_A']
         par['n_est'] = sr['recharge_n']
         par['a_est'] = sr['recharge_a']
-        par['alpha_est'] = np.exp(-1. / sr["noise_alpha"]).round(2)
-        par['beta_est'] = np.exp(-1. / sr["noise_beta"]).round(2)
+        par['alpha_est'] = np.exp(-1. / sr["noise_alpha"])
+        pm = sr["noise_beta"] / np.abs(sr["noise_beta"])
+        par['beta_est'] = pm * np.exp(-1. / np.abs(sr["noise_beta"]))
 
         self.par = DataFrame([par])
         self.par.index.name = 'casename'

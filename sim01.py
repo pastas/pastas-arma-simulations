@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import pastas as ps
 from pandas import DataFrame
@@ -8,17 +9,17 @@ ps.set_log_level("ERROR")
 
 # define simulation cases with varying alpha and beta
 alpha_list = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.99]
-beta_list = [x / 10 for x in list(range(1, 10, 1))]
+beta_list = np.arange(-0.9, 1., 0.1).round(2)
 
 cases = []
 for alpha in alpha_list:
     for beta in beta_list:
-        case = {'Atrue': 800, 'ntrue': 1.1, 'atrue': 200, 'dtrue': 20,
+        case = {'Atrue': 800, 'ntrue': 1.1, 'atrue': 50, 'dtrue': 20,
                 'alpha': alpha, 'beta': beta}
         cases.append(case)
 
 cases = DataFrame(cases)
-casenames = [f'case{100 + nr}' for nr in range(len(cases))]
+casenames = [f'case{nr}' for nr in range(len(cases))]
 cases = cases.set_index([casenames])
 cases.index.name = 'casename'
 cases.to_csv('cases.csv', index=False)
